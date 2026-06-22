@@ -1,0 +1,132 @@
+pages 6
+
+--- PAGE 1 TEXT ---
+Discentes: Alisson Marques Reis e Lucas Augusto Teixeira​
+Docente: Profª Drª Cintia Isabel de Campos Roque Guerrero Componente acadêmico: 
+Projeto de Sistemas de Transporte 1 - CIT0105​
+​
+Projeto 2 - Semana 3 - 08/06​
+​
+1. Introdução 
+Durante o desenvolvimento prático em sala de aula no dia 01/06 foi apresentada uma 
+parcialidade do protótipo inicial que será apresentado aos usuários em formato de teste. A 
+partir desta inicialização, apresentamos abaixo as atividades desenvolvidas com o objetivo de 
+tornar a solução visível e compreensível. 
+2. Protótipo inicial — Sistema de Micromobilidade Integrada Universitária 
+A proposta contempla a implantação de estações de bicicletas compartilhadas em pontos 
+estratégicos do sistema de transporte coletivo, permitindo a integração entre ônibus e 
+bicicleta nos deslocamentos dos estudantes da Universidade Federal de Goiás. O principal 
+ponto de implantação sugerido encontra-se no canteiro central localizado entre os pontos de 
+ônibus 2327 e 2328, aproveitando a infraestrutura já existente da ciclovia e transformando o 
+local em um ponto de integração modal. A estação contará com um totem de identificação 
+acadêmica e vagas para estacionamento das bicicletas, possibilitando a retirada e devolução 
+dos equipamentos de forma rápida e segura. 
+O funcionamento do sistema foi concebido para priorizar a praticidade do usuário. A 
+autenticação ocorrerá por meio do crachá institucional da UFG, dispensando a necessidade de 
+utilizar o aplicativo durante o processo de retirada da bicicleta. Ao aproximar o crachá do 
+leitor instalado no totem, o estudante será identificado pelo sistema e uma bicicleta disponível 
+será liberada automaticamente. Ao final da viagem, a devolução poderá ser realizada em 
+qualquer estação participante do sistema, permitindo maior flexibilidade operacional e 
+incentivando a utilização cotidiana do serviço. 
+A Figura 1 apresenta a proposta visual da estação de integração localizada entre os pontos de 
+ônibus 2327 e 2328. O projeto preserva integralmente a ciclovia existente e utiliza o espaço 
+disponível no canteiro central para instalação das bicicletas e do totem de controle, 
+promovendo uma integração eficiente entre o transporte coletivo e a mobilidade ativa sem 
+interferir na circulação dos ciclistas. 
+
+
+--- PAGE 2 TEXT ---
+ 
+Imagem 1 -  Estação no canteiro central entre os pontos 2327 e 2328 
+Além da estação de integração junto aos pontos de ônibus, propõe-se a implantação de uma 
+estação no Campus Aparecida de Goiânia da UFG. Essa estrutura funcionará como ponto 
+final das viagens realizadas pelos estudantes, permitindo a devolução das bicicletas dentro do 
+ambiente universitário. A presença da estação no campus reduz a necessidade de 
+deslocamentos a pé em trechos mais longos, aumenta a acessibilidade às instalações 
+acadêmicas e fortalece a conexão entre o sistema de transporte público e a universidade. 
+A Figura 2 ilustra a proposta de implantação da estação no Campus Aparecida da UFG. O 
+modelo segue o mesmo padrão de operação da estação de integração, utilizando totem de 
+identificação por crachá institucional e bicicletário organizado para retirada e devolução dos 
+veículos. Além da infraestrutura voltada à mobilidade, a proposta contempla a criação de um 
+espaço de convivência adjacente à estação, equipado com cobertura, bancos, bebedouro e 
+área de permanência para os estudantes. Esse ambiente tem como objetivo proporcionar 
+maior conforto aos usuários antes e após os deslocamentos, funcionando também como ponto 
+de encontro, descanso e integração da comunidade acadêmica. A proximidade entre a estação 
+de bicicletas e o espaço de convivência contribui para tornar o local mais atrativo, 
+incentivando o uso da mobilidade ativa e promovendo uma ocupação mais qualificada dos 
+espaços do campus. 
+
+
+--- PAGE 3 TEXT ---
+ 
+Imagem 2 - estação no Campus UFG Aparecida 
+Como complemento à infraestrutura proposta, recomenda-se a implantação de faixas de 
+pedestres elevadas nas proximidades das estações de bicicletas e dos pontos de ônibus. Essa 
+medida tem como objetivo aumentar a segurança viária dos estudantes durante a travessia das 
+vias, reduzindo a velocidade dos veículos e proporcionando maior acessibilidade aos usuários 
+do sistema. A combinação entre transporte coletivo, bicicletas compartilhadas e melhorias na 
+infraestrutura para pedestres contribui para a construção de um ambiente urbano mais seguro, 
+sustentável e alinhado aos princípios da mobilidade ativa. 
+3. Aplicativo de apoio 
+O aplicativo proposto funciona como uma plataforma de apoio ao sistema de 
+micromobilidade integrada universitária, permitindo que os estudantes planejem seus 
+deslocamentos entre o transporte coletivo, as estações de bicicletas compartilhadas e o 
+Campus Aparecida da UFG. Conforme apresentado na Imagem 3, a tela inicial do sistema 
+oferece acesso exclusivo aos discentes por meio da autenticação institucional da 
+universidade, utilizando integração com o SIGAA ou validação acadêmica. Além disso, a 
+interface informa ao usuário que a retirada das bicicletas poderá ser realizada diretamente por 
+meio do crachá institucional, proporcionando maior praticidade durante a utilização do 
+sistema. 
+
+
+--- PAGE 4 TEXT ---
+ 
+Imagem 3 – Tela inicial do aplicativo e autenticação acadêmica 
+Após o primeiro acesso, o usuário realiza um cadastro simplificado contendo informações 
+como idade, altura, peso e gênero. Conforme ilustrado na Imagem 4, esses dados são 
+utilizados exclusivamente para personalizar indicadores de saúde e mobilidade ativa, 
+permitindo estimativas de calorias gastas, distância percorrida e acompanhamento da 
+evolução do usuário ao longo do tempo.  
+ 
+Imagem 4 – Tela de cadastro de métricas de saúde 
+ 
+Uma das principais funcionalidades da solução é o planejamento inteligente de viagens 
+multimodais. Conforme apresentado na Imagem 5, o sistema utiliza dados de geolocalização 
+e roteamento para calcular automaticamente o deslocamento entre origem e destino, 
+combinando caminhada, transporte coletivo e bicicleta compartilhada. O aplicativo identifica 
+
+
+--- PAGE 5 TEXT ---
+a estação de integração mais adequada, indica o trecho que será realizado por ônibus e 
+determina o percurso final por bicicleta até o campus universitário.  
+ 
+ 
+Imagem 5 – Tela de cálculo da rota multimodal 
+ 
+Além do cálculo da rota, o sistema apresenta informações detalhadas sobre o deslocamento. 
+Como pode ser observado na Imagem 6, o aplicativo informa o tempo total estimado da 
+viagem, a distância percorrida, a disponibilidade de bicicletas na estação selecionada e 
+exemplos de trajetos que podem ser realizados utilizando a integração entre ônibus e 
+bicicleta. Essas informações auxiliam o estudante na escolha da melhor alternativa de 
+deslocamento e reduzem a incerteza durante a viagem.  
+ 
+ 
+Imagem 6 – Tela de resultados da rota e disponibilidade de bicicletas 
+ 
+
+
+--- PAGE 6 TEXT ---
+Por fim, o aplicativo disponibiliza uma área destinada ao acompanhamento dos indicadores 
+de mobilidade ativa. Conforme ilustrado na Imagem 7, o usuário pode visualizar a 
+quilometragem acumulada, estimativa de calorias gastas, metas de deslocamento e gráficos 
+de utilização semanal. Essa funcionalidade tem como objetivo incentivar hábitos mais 
+saudáveis e promover maior engajamento dos estudantes com os meios de transporte 
+sustentáveis disponibilizados pela universidade.  
+ 
+ 
+Imagem 7 – Dashboard de saúde e engajamento do usuário 
+Dessa forma, o aplicativo não atua apenas como uma ferramenta de consulta de bicicletas 
+disponíveis, mas como um sistema integrado de apoio à mobilidade universitária, conectando 
+transporte público, bicicletas compartilhadas e indicadores de saúde em uma única plataforma 
+digital.  
+
