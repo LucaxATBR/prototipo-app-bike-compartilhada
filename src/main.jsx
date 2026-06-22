@@ -66,7 +66,7 @@ const appScreens = [
 const stats = [
   { value: '2', label: 'estações iniciais' },
   { value: '7', label: 'telas e imagens do protótipo' },
-  { value: '7', label: 'entrevistas de avaliação' },
+  { value: '8', label: 'entrevistas de avaliação' },
   { value: '4+', label: 'estrelas nas avaliações' },
 ];
 
@@ -156,6 +156,18 @@ const interviews = [
     wouldUse: 'Usaria por enxergar mais conforto e segurança no deslocamento diário.',
     improvement: 'Sugeriu bancos, bebedouro e abrigo nas estações, como no espaço de convivência proposto.',
     difficulty: 'Previu dificuldades em dias de alta demanda ou mau tempo.',
+  },
+  {
+    name: 'Nathan ****',
+    rating: 5,
+    summary:
+      'Achou o site muito claro e avaliou que a solução resolve o problema percebido ao criar mais uma oportunidade de deslocamento.',
+    wouldUse:
+      'Utilizaria o aplicativo e considera que a proposta ajudaria estudantes, embora tenha ressalva pessoal sobre pedalar em áreas de relevo.',
+    improvement:
+      'Sugeriu incentivos por quilometragem, como benefícios ou descontos, para estimular o uso contínuo das bicicletas.',
+    difficulty:
+      'Previu dificuldade principalmente na implantação, por depender de decisões institucionais e questões políticas do transporte.',
   },
 ];
 
