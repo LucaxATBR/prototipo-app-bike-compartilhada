@@ -20,14 +20,16 @@ import {
 } from 'lucide-react';
 import './styles.css';
 
+const assetPath = (path) => `${import.meta.env.BASE_URL}${path}`;
+
 const stationImages = [
   {
-    src: '/imagens/pdf-imagem-01.webp',
+    src: assetPath('imagens/pdf-imagem-01.webp'),
     title: 'Estação no canteiro central',
     caption: 'Entre os pontos de ônibus 2327 e 2328, integrada à ciclovia existente.',
   },
   {
-    src: '/imagens/pdf-imagem-02.webp',
+    src: assetPath('imagens/pdf-imagem-02.webp'),
     title: 'Estação no Campus UFG Aparecida',
     caption: 'Ponto final das viagens com bicicletário, totem e espaço de convivência.',
   },
@@ -35,27 +37,27 @@ const stationImages = [
 
 const appScreens = [
   {
-    src: '/imagens/pdf-imagem-03.webp',
+    src: assetPath('imagens/pdf-imagem-03.webp'),
     title: 'Acesso acadêmico',
     text: 'Entrada exclusiva para discentes via SIGAA ou validação por matrícula.',
   },
   {
-    src: '/imagens/pdf-imagem-04.webp',
+    src: assetPath('imagens/pdf-imagem-04.webp'),
     title: 'Métricas de saúde',
     text: 'Cadastro simples para estimar calorias, distância e evolução de uso.',
   },
   {
-    src: '/imagens/pdf-imagem-05.webp',
+    src: assetPath('imagens/pdf-imagem-05.webp'),
     title: 'Rota multimodal',
     text: 'Planejamento combinando caminhada, ônibus e bicicleta compartilhada.',
   },
   {
-    src: '/imagens/pdf-imagem-06.webp',
+    src: assetPath('imagens/pdf-imagem-06.webp'),
     title: 'Disponibilidade',
     text: 'Tempo total, trechos da viagem e bicicletas disponíveis na estação.',
   },
   {
-    src: '/imagens/pdf-imagem-07.webp',
+    src: assetPath('imagens/pdf-imagem-07.webp'),
     title: 'Engajamento',
     text: 'Quilometragem, calorias, metas e uso semanal em um dashboard pessoal.',
   },
@@ -359,7 +361,7 @@ function App() {
             <div><UsersRound size={20} /><strong>78%</strong><span>meta mensal</span></div>
           </div>
         </div>
-        <img src="/imagens/pdf-imagem-07.webp" alt="Dashboard de saúde e engajamento" />
+        <img src={assetPath('imagens/pdf-imagem-07.webp')} alt="Dashboard de saúde e engajamento" />
       </section>
 
       <footer>
